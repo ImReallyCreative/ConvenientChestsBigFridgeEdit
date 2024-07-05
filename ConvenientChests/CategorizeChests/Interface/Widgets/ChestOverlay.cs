@@ -62,7 +62,7 @@ namespace ConvenientChests.CategorizeChests.Interface.Widgets {
         }
 
         private void PositionButtons() {
-            var delta = Chest.SpecialChestType == Chest.SpecialChestTypes.BigChest ? -128 : -112;
+            var delta = Chest.SpecialChestType == Chest.SpecialChestTypes.BigChest ? -228 : -112;
 
             StashButton.Width = CategorizeButton.Width = Math.Max(StashButton.Width, CategorizeButton.Width);
 
